@@ -31,6 +31,7 @@ import { mockGetNFTTransfersFromToBlock } from './evmApi/getNFTTransfersFromToBl
 import { mockGetDateToBlock } from './evmApi/getDateToBlock';
 import { mockGetTokenAllowance } from './evmApi/getTokenAllowance';
 import { mockGetTokenMetadata } from './evmApi/getTokenMetadata';
+import { mockGetPairAddress } from './evmApi/getPairAddress';
 
 const handlers = [
   mockGetNFTTransfersFromToBlock,
@@ -39,6 +40,7 @@ const handlers = [
   mockResolveAddress,
   mockGetNativeBalance,
   mockGetTokenPrice,
+  mockGetPairAddress,
   mockGetPairReserves,
   mockGetLogsByAddress,
   mockGetTokenTransfer,

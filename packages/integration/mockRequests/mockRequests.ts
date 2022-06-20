@@ -31,6 +31,7 @@ import { mockGetNFTTransfersFromToBlock } from './evmApi/getNFTTransfersFromToBl
 import { mockGetDateToBlock } from './evmApi/getDateToBlock';
 import { mockGetTokenAllowance } from './evmApi/getTokenAllowance';
 import { mockGetTokenMetadata } from './evmApi/getTokenMetadata';
+import { mockGetContractEvents } from './evmApi/getContractEvents';
 
 const handlers = [
   mockGetNFTTransfersFromToBlock,
@@ -64,6 +65,7 @@ const handlers = [
   mockGetTransaction,
   mockGetTokenAllowance,
   mockGetTokenMetadata,
+  mockGetContractEvents,
   // should be kept at the end of the array or specified because it takes precedence over another endpoint
   mockGetTransactions,
 ];

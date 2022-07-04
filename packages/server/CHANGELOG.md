@@ -1,5 +1,14 @@
 # @moralisweb3/server
 
+## 2.0.0-alpha.2
+
+### Patch Changes
+
+- [#469](https://github.com/MoralisWeb3/Moralis-JS-SDK/pull/469) [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316) Thanks [@b4rtaz](https://github.com/b4rtaz)! - CommonJS/UMD/ESM builds.
+
+- Updated dependencies [[`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316), [`d525351`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/d525351da98b8b1dec6a7559c953c5b921d7b913), [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316)]:
+  - @moralisweb3/core@2.0.0-alpha.2
+
 ## 2.0.0-alpha.1
 
 ### Major Changes
